@@ -43,6 +43,9 @@
     .secondright{
         width: 90%;
     }
+    .thirdsection{
+        padding-bottom: 20px;
+    }
     .third{
         display: none;
     }
@@ -50,7 +53,7 @@
         display: none;
     }
     .belowthird{
-        display: block;
+        display: none;
         padding-top: 8px;
     }
     .belowthird li{
@@ -62,10 +65,16 @@
         text-align: center;
         width: 90%;
         padding: 12px 120px 12px 120px;
-        margin-left: 40px;
+        margin-left: 22px;
         margin-bottom: 20px;
     }
     .final{
-        display: none;
+        text-align: left;
+        display: block;
+        width: 90%;
+    }
+    .final input{
+        margin-bottom: 15px;
+        margin-left: 23px;
     }
 }
