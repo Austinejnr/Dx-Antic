@@ -76,5 +76,11 @@
     .final input{
         margin-bottom: 15px;
         margin-left: 23px;
+        transition: all 1s ease;
+    }
+    .final input:hover{
+        background: var(--black-color);
+        color: goldenrod;
+        width: 400px;
     }
 }
