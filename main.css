@@ -112,21 +112,24 @@
         background: transparent;
     }
     .showburger .menu::before{
-        background: var(--main-color);
+        background: var(--text-colorr);
         transform: rotate(45deg);
         transition: all 1s ease;
     }
     .showburger .menu::after{
         transform: rotate(-45deg);
-        background: var(--main-color);
+        background: var(--text-colorr);
         transition: all 1s ease;
     }
     .mobilehead{
         display: none;
+        position: fixed;
+        width: 100%;
+        margin: 0 auto;
     }
     .mobiletext{
         /* border: 3px solid greenyellow; */
-        height: 320px;
+        padding-top: 65px;
         width: 90%;
         margin: 0 auto;
     }
@@ -166,13 +169,13 @@
         margin: 0 auto;
     }
     .mobilelinkscontainer{
-        margin-top: 25px;
+        margin-top: 70px;
         /* display: none; */
         transform: translateX(102%);
         transition: all 1s ease;
-        width: 50%;
-        height: 100%;
-        background: var(--text-color);
+        width: 100%;
+        height: 20%;
+        background: var(--grey);
         position: fixed;
         top: 0;
         right: 0;
@@ -186,18 +189,18 @@
         list-style: none;
     }
     .mobilelinkscontent a{
-        color: var(--white-color);
+        color: var(--text-color);
         display: block;
         text-decoration: none;
         padding: 10px 20px;
     }
+    .mobilelinkscontent .active{
+        background: transparent;
+        color: var(--white-color);
+    }
     .mobilelinkscontent a:hover{
         background: var(--black-color);
         color: goldenrod;
-    }
-    .mobilelinkscontent .active{
-        background: var(--white-color);
-        color: var(--text-color);
     }
     .below{
         color: var(--main-color);
