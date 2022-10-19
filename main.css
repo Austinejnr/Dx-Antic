@@ -58,10 +58,11 @@
     }
     .mobile{
         display: none;
-        height: 450px;
+        /* height: 450px; */
         background: url("./Image/header.png");
         background-size: cover;
         background-position: bottom left;
+        padding-bottom: 30px;
     }
     .nav-brand{
         /* border: 3px solid blue; */
@@ -123,9 +124,9 @@
     }
     .mobilehead{
         display: none;
-        position: fixed;
+        /* position: fixed;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto; */
     }
     .mobiletext{
         /* border: 3px solid greenyellow; */
@@ -137,7 +138,7 @@
         list-style: none;
         color: var(--white-color);
         font-family: 'Varta', sans-serif;
-        padding-top: 50px;
+        /* padding-top: 50px; */
         font-size: 14px;
         text-align: center;
     }
@@ -169,17 +170,16 @@
         margin: 0 auto;
     }
     .mobilelinkscontainer{
-        margin-top: 70px;
-        /* display: none; */
+        display: none;
         transform: translateX(102%);
         transition: all 1s ease;
-        width: 100%;
-        height: 20%;
-        background: var(--grey);
-        position: fixed;
         top: 0;
         right: 0;
         z-index: 3;
+    }
+    .mobilelinkscontainer.is-active{
+        display: block;
+        transition: all 1s ease;
     }
     .showmobilelinks{
         /* display: block; */
@@ -187,23 +187,20 @@
     }
     .mobilelinkscontent ul{
         list-style: none;
+        font-family: 'Varta', sans-serif;
     }
     .mobilelinkscontent a{
         color: var(--text-color);
         display: block;
+        background: var(--grey);
         text-decoration: none;
         padding: 10px 20px;
     }
-    .mobilelinkscontent  .activelink{
-        background: url('./Image/header.png');
-        background-size: cover;
-        background-position: center;
+    .mobilelinkscontent a:hover{
+        background: transparent;
         color: var(--white-color);
     }
-    .mobilelinkscontent a:hover{
-        background: var(--black-color);
-        color: goldenrod;
-    }
+    
     .below{
         color: var(--main-color);
         padding-top: 60px;
