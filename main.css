@@ -112,13 +112,13 @@
         background: transparent;
     }
     .showburger .menu::before{
-        background: var(--text-colorr);
+        background: var(--grey);
         transform: rotate(45deg);
         transition: all 1s ease;
     }
     .showburger .menu::after{
         transform: rotate(-45deg);
-        background: var(--text-colorr);
+        background: var(--grey);
         transition: all 1s ease;
     }
     .mobilehead{
