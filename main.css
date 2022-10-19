@@ -194,8 +194,10 @@
         text-decoration: none;
         padding: 10px 20px;
     }
-    .mobilelinkscontent .active{
-        background: transparent;
+    .mobilelinkscontent  .activelink{
+        background: url('./Image/header.png');
+        background-size: cover;
+        background-position: center;
         color: var(--white-color);
     }
     .mobilelinkscontent a:hover{
