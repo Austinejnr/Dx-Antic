@@ -176,7 +176,7 @@
         top: 0;
         right: 0;
         z-index: 3;
-        padding-top: 20px;
+        padding-top: 20p0x;
     }
     .mobilelinkscontainer.is-active{
         display: block;
@@ -412,3 +412,95 @@
     transition: all 0.5s ease;
 }
     /* thrid section ends here  */
+
+    /* fourth section starts here  */
+.fourthsection{
+    /* border: 3px solid tomato; */
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 75px;
+}
+.fourthsection img{
+    margin-right: 10px;
+}
+/* fourth section ends here  */
+
+/* fifth section starts here  */
+.fifthsection{
+    /* border: 3px solid red; */
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.fifthsection h3{
+    font-family: 'Merriweather', serif;
+    color: var(--button-color);
+    font-size: 30px;
+    font-weight: lighter;
+}
+.fifthsection p{
+    font-family: 'Varta', sans-serif;
+    color: var(--text-color);
+}
+.latest{
+    /* border: 2px solid var(--main-color); */
+    display: flex;
+}
+.arrowleft{
+    border: 2px solid var(--main-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    padding-top: 10px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.arrowright{
+    border: 2px solid var(--main-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+/* fifth section ends here  */
+
+/* mobile close section starts here  */
+.mobileclose{
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.mobileclose h3{
+    font-family: 'Merriweather', serif;
+    color: var(--button-color);
+    font-size: 30px;
+    font-weight: lighter;
+}
+.mobileclose p{
+    padding-top: 15px;
+    font-family: 'Varta', sans-serif;
+    color: var(--new);
+}
+/* mobile close section ends here  */
+
+/* mobile end starts here  */
+.mobileend{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    /* padding-bottom: 30px; */
+}
+.mobileend img{
+    width: 45%;
+    display: block;
+}
+
+/* mobile end ends here  */

@@ -83,4 +83,22 @@
         color: goldenrod;
         width: 300px;
     }
+    .fourthsection{
+        display: none;
+    }
+    .fifthsection{
+        display: none;
+    }
+    .mobileclose{
+        display: block;
+    }
+    .mobileend{
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding-bottom: 30px;
+    }
+    .mobility{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
