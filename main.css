@@ -493,14 +493,48 @@
 /* mobile end starts here  */
 .mobileend{
     display: none;
-    width: 90%;
-    margin: 0 auto;
-    /* justify-content: space-evenly; */
-    /* padding-bottom: 30px; */
+    width: 100%;
+    /* margin: 0 auto; */
+    /* border: 3px solid tomato; */
+    padding-left: 35px;
+
 }
-.mobileend img{
-    width: 45%;
-    display: block;
+.mobileend p{
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.chair{
+    margin-top: 35px;
+    background: url("./Image/slide1.png");
+    background-size: cover;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
+    /* margin-right: 15px; */
+}
+.cooked{
+    background: url("./Image/slide2.png");
+    background-size: cover;
+    background-position: bottom right;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.living{
+    background: url("./Image/slide3png.png");
+    background-size: cover;
+    background-position: bottom left;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.tables{
+    background: url("./Image/slide4.png");
+    background-size: cover;
+    background-position: bottom right;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
 }
 
 /* mobile end ends here  */
