@@ -655,7 +655,9 @@ footer .douze li{
 
 .mobilesixth{
     font-family: 'Varta', sans-serif;
-    padding-left: 30px;
+    padding-left: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
 .mobilesixth h4{
     color: var(--black-color);
@@ -683,6 +685,39 @@ footer .douze li{
 .mobilecolour{
    color: var(--main-color);
 }
+.fut{
+    background: var(--background);
+}
 .mobilefooter{
     display: none;
+    width: 90%;
+    margin: 0 auto;
+    /* padding-bottom: 55px;  */
 }
+.mobilefooter li{
+    list-style: none;
+    color: var(--latest);
+    /* margin-left: 5px; */
+}
+.mobilefooter .flex{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+}
+.mobilefooter .spacing{
+    padding-left: 40px;
+}
+.mobilefooter .road{
+    color: var(--latest);
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.mobilefooter .end{
+    padding-top: 30px;
+    color: var(--latest);
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
