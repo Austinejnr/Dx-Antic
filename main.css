@@ -536,5 +536,153 @@
     height: 250px;
     margin-bottom: 20px;
 }
-
 /* mobile end ends here  */
+.sixthsection{
+    background: var(--background);
+}
+.sixth{
+    padding-top: 60px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.sixth .un{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.un h3{
+    color: var(--button-color);
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    /* padding-left: 75px; */
+}
+.list{
+    color: var(--button-color);
+    font-size: 25px;
+    font-family: 'Varta', sans-serif;
+   
+}
+.list h4{
+    padding-bottom: 10px;
+}
+.list li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 35px;
+    font-family:'Varta', sans-serif ;
+}
+
+.deux{
+    padding-left: 40px;
+}
+.deux h4{
+    color: var(--button-color);
+    font-size: 25px;
+    font-family: 'Varta', sans-serif;
+    padding-bottom: 25px;
+}
+.deux p{
+    color: var(--button-color);
+    font-family: 'Varta', sans-serif;
+    padding-top: 18px;
+    font-size: 16px;
+}
+.deux .colour{
+    color: var(--main-color);
+    font-family:'Karla', sans-serif ;
+}
+.deux .time{
+    padding-top: 8px;
+}
+
+.emblem{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emblem .border{
+    margin-right: 15px;
+    padding: 8px 8px;
+    font-size: 22px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    color: var(--button-color);
+}
+.emblem .border:hover{
+    color: var(--main-colortwo);
+    transition: all 0.3s ease;
+    background: var(--black-color);
+}
+
+footer{
+    font-family: 'Varta', sans-serif;
+    background: var(--background);
+    padding-bottom: 60px;
+    
+}
+footer .footertext{
+    padding-top: 15px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: var(--text-color);
+    justify-content: space-between;
+
+}
+footer .douze{
+    display: flex;  
+}
+footer .douze li{
+    margin-right: 18px;
+    list-style: none;
+}
+
+.mobilesixthsection{
+    display: none;
+    background: var(--background);
+    padding-top: 40px;
+}
+.mobilesixthsection h3{
+    width: 90%;
+    margin: 0 auto;
+    color: var(--button-color);
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.mobilesixth{
+    font-family: 'Varta', sans-serif;
+    padding-left: 30px;
+}
+.mobilesixth h4{
+    color: var(--black-color);
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.mobilesixth li{
+    line-height: 28px;
+    list-style: none;
+    color: var(--text-color);
+}
+.mobilesixth h5{
+    color: var(--button-color);
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.mobilesixth p{
+    padding-top: 20px;
+    font-size: 15px;
+    color: var(--latest);
+    padding-bottom: 15px;
+}
+.mobilecolour{
+   color: var(--main-color);
+}
+.mobilefooter{
+    display: none;
+}

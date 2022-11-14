@@ -95,4 +95,13 @@
     .mobileend{
         display: block;
     }
+    .sixthsection{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .mobilesixthsection{
+        display: block;
+    }
 }
