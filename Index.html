@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antic</title>
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -161,9 +162,36 @@
 
           <!-- fourth section ends here  -->
           <div class="fourthsection" id="inspirations">
-            <img src="./Image/slide1.png" alt="">
-            <img src="./Image/slide2.png" alt="">
-            <img src="./Image/slide3png.png" alt="">
+            <section id="slider-2">
+                <div class="container-wide">
+                    <div class="swiper" id="swiper-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="./Image/slide1.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="./Image/slide2.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="./Image/slide3png.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="./Image/footer.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            
           </div>
           <!-- fourth section ends here  -->
 
@@ -177,8 +205,8 @@
                 to inspire you we have to inspire ourselves and <br /> 
                 we want to share that with you.</p>
                 <div class="latest">
-                    <div class="arrowleft"><i class="fa-solid fa-angle-left"></i></div>
-                    <div class="arrowright"><i class="fa-solid fa-angle-right"></i></div>
+                    <div class="arrowleft" id="nav-left"><i class="fa-solid fa-angle-left"></i></div>
+                    <div class="arrowright" id="nav-right"><i class="fa-solid fa-angle-right"></i></div>
                 </div>
           </div>
           <!-- fifth section ends here  -->
@@ -338,7 +366,9 @@
           
 
 
+          
 
+          <script src="./swiper-bundle.min.js"></script>
           <script src="main.js"></script>
 
 </body>

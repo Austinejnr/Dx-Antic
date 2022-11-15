@@ -415,14 +415,25 @@
 
     /* fourth section starts here  */
 .fourthsection{
-    /* border: 3px solid tomato; */
+    border: 3px solid tomato;
+    
+}
+.container-wide{
+    max-width: 100%;
+    padding: 0 4rem;
+}
+.swiper-slide img{
+    display: block;
     width: 100%;
-    margin: 0 auto;
-    padding-left: 75px;
+    height: 30rem;
+    object-fit: cover;
 }
-.fourthsection img{
-    margin-right: 10px;
+.swiper-slide figure{
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 }
+
 /* fourth section ends here  */
 
 /* fifth section starts here  */
@@ -446,6 +457,7 @@
 .latest{
     /* border: 2px solid var(--main-color); */
     display: flex;
+    cursor: pointer;
 }
 .arrowleft{
     border: 2px solid var(--main-color);
@@ -456,7 +468,11 @@
     text-align: center;
     padding-top: 10px;
     color: var(--main-color);
-    cursor: pointer;
+}
+.arrowleft:hover{
+    background: var(--black-color);
+    color: var(--main-colortwo);
+    transition: all 0.3s ease-in-out;
 }
 .arrowright{
     border: 2px solid var(--main-color);
@@ -466,7 +482,11 @@
     text-align: center;
     padding-top: 10px;
     color: var(--main-color);
-    cursor: pointer;
+}
+.arrowright:hover{
+    background: var(--black-color);
+    color: var(--main-colortwo);
+    transition: all 0.3s ease-in-out;
 }
 /* fifth section ends here  */
 
