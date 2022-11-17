@@ -15,7 +15,7 @@ function addandremove(){
 }
 
 new Swiper ("#swiper-2", {
-    slidesPerView: 1.5,
+    slidesPerView: 3,
     centeredSlides: true,
     spaceBetween: 24,
     lazyLoading: true,
